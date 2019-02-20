@@ -11,6 +11,13 @@ a {
 	text-decoration: none;
     color: black;
 	opacity: 0.5;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+.nav__item {
 	padding-left: 5px;
 	padding-right: 5px;
 	font-family: 'Roboto', sans-serif;
@@ -18,9 +25,6 @@ a {
 	font-size: 16pt;
 }
 
-a:hover {
-	opacity: 1;
-}
 
 .header {
 	width: 100%;
