@@ -7,22 +7,32 @@
 		<meta name="description" content="Dent">
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
 	</head>
 
 	<body>
 		<header class="header">
-			<a href="">О нас</a>
-			<a href="#services">Услуги</a>
-			<a href="#team">Команда</a>
-			<a href="#docs">Документы</a>
-			<a href="#contacts">Контакты</a>
-			<a href="">Тест</a>
+			<div class="header__logo"><img src="./img/logo.png"></div>
+			<div class="header__nav">
+				<a href="" class="nav__item">О нас</a>
+				<a href="#services" class="nav__item">Услуги</a>
+				<a href="#team" class="nav__item">Команда</a>
+				<a href="#docs" class="nav__item">Документы</a>
+				<a href="#contacts" class="nav__item">Контакты</a>
+			</div>
+			<div class="header__phone">
+				+7 (495) 997-99-50 
+				<br>
+				+7 (499) 167-09-42
+			</div>
 		</header>
-		<section class="gallery">2</section>
-		<section id="services" class="services">Услуги</section>
-		<section id="team" class="team">Команда</section>
-		<section id="docs" class="docs">Документы</section>
-		<section id="contacts" class="contacts">Контакты</section>
+		<main class="content">
+			<section class="gallery">2</section>
+			<section id="services" class="services">Услуги</section>
+			<section id="team" class="team">Команда</section>
+			<section id="docs" class="docs">Документы</section>
+			<section id="contacts" class="contacts">Контакты</section>
+		</main>
 		<footer class="footer">999</footer>
 	</body>
 </html>

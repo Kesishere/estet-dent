@@ -3,18 +3,60 @@ section {
 	min-height: 300px;
 }
 
+.content{
+	padding-top: 80px;
+}
+
 a {
 	text-decoration: none;
     color: black;
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 a:hover {
 	opacity: 1;
 }
 
+.nav__item {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+
 .header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left:0;
 	min-height: 50px;
+	display: flex;
+	flex-direction: row;	
+	justify-content: space-between;
+	background-color: white;
+	box-shadow: 0 0 10px 3px rgb(139, 139, 139);
+	white-space: nowrap;
+	z-index: 1;
+
+}
+
+.header__logo {
+	margin-left: 15px;
+}
+
+.header__phone {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+	margin-top: 15px;
+	margin-right: 20px;
+	color: darkgrey;
+}
+
+.header__nav {
+	margin-top: 30px;
 }
 
 .gallery {
