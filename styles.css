@@ -71,6 +71,41 @@ a:hover {
 	background: pink;
 }
 
+.contacts{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: linear-gradient(45deg, #FFFFFF, rgb(176, 230, 255));
+}
+
+.contacts__info {
+	margin: 100px 80px 30px 80px;
+
+}
+
+.contacts__info__ul {
+	list-style-type: none;
+}
+
+.contacts__info__ul li {
+	font-family: 'Roboto';
+	font-size: 20px;
+	color: #1a1a1a;
+}
+
+.contacts__map {
+	margin: 30px 50px 30px 0px;
+	box-shadow: 0 0 10px 3px rgb(139, 139, 139);
+}
+
+.subway_name {
+	color: #ff3333;
+}
+
+.light_black {
+	color:#4d4d4d
+}
+
 .footer {
 	background: black;
 }
