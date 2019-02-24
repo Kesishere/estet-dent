@@ -89,7 +89,29 @@ a:hover {
 
 
 .services {
-	background: yellow;
+	background: linear-gradient(45deg, #FFFFFF, rgb(176, 230, 255));
+}
+
+
+.services__item{
+	width: 300px;
+	background: #325b7b;
+	color: white;
+	height: 300px;
+	border: 1px solid white;
+	
+}
+
+
+
+.services ul {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	text-align: center;
+	list-style-type: none;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .team {
