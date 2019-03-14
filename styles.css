@@ -60,7 +60,7 @@ a:hover {
 }
 
 .main_info {
-	background: linear-gradient(45deg, #FFFFFF, rgb(176, 230, 255));
+	background: linear-gradient(135deg, #FFFFFF, rgb(176, 230, 255));
 	display: flex;
 	flex-direction: row;
 
@@ -99,19 +99,46 @@ a:hover {
 	color: white;
 	height: 300px;
 	border: 1px solid white;
-	
 }
 
+.first {
+	position: absolute;
+	width: auto;
+	display: block;
+}
 
+.first:hover {
+	visibility: hidden;
+}
 
-.services ul {
+.wrapper {
 	display: grid;
-	grid-template-columns: 300px 300px 300px;
-	text-align: center;
-	list-style-type: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 300px;
 	justify-content: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 30px;
+  }
+
+.box {
+	position: relative;
+}
+
+.box__title {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	background: #1a1a1a;
+	color: #fff;
+}
+
+.box:hover .box__title{
+	display: none;
+}
+.box__content {
+	color: #fff;
 }
 
 .team {
