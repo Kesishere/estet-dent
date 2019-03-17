@@ -133,17 +133,37 @@ a:hover {
 	height: 100%;
 	width: 100%;
 	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-	background: #1a1a1a;
+	justify-content: center;
+	align-items: center;
 	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto'
+}
+
+.box__title_bg_blue {
+	background: #345d7d;
+}
+
+.box__title_bg_green {
+	background: #2facb3;
 }
 
 .box:hover .box__title{
 	display: none;
 }
 .box__content {
-	color: #fff;
+	font-family: 'Roboto';
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.box__content li {
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
