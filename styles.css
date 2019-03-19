@@ -112,19 +112,9 @@ a:hover {
 	border: 1px solid white;
 }
 
-.first {
-	position: absolute;
-	width: auto;
-	display: block;
-}
-
-.first:hover {
-	visibility: hidden;
-}
-
 .wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 400px 400px 400px;
 	grid-auto-rows: 300px;
 	justify-content: center;
 	padding: 30px;
@@ -257,4 +247,23 @@ a:hover {
 	padding-bottom: 10px;
 	font-family: 'Roboto';
 
+}
+
+
+@media (max-width: 1200px) {
+	.wrapper {
+		grid-template-columns: 400px 400px;
+	}
+	.box {
+		margin: 1px;
+	}
+}
+
+@media (max-width: 360px) {
+	.wrapper {
+		grid-template-columns: 400px;
+	}
+	.box {
+		margin: 1px;
+	}
 }
