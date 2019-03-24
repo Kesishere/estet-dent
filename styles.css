@@ -1,5 +1,5 @@
 /**
-TODO Breakpints 360px 1200px
+TODO Breakpints 360px 900px 1200px
 */
 
 body {
@@ -64,6 +64,13 @@ a:hover {
 	margin-right: 20px;
 	color: darkgrey;
 }
+
+@media (max-width: 1200px) {
+	.header__phone {
+		display: none;
+	}
+}
+
 
 .header__nav {
 	margin-top: 30px;
