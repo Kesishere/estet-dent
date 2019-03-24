@@ -1,6 +1,5 @@
 /**
 TODO Breakpints 360px 1200px
-
 */
 
 section {
@@ -238,8 +237,8 @@ a:hover {
 }
 
 .footer {
-	background: black;
-	color: #fff;
+	background: #fff;
+	color: #000;
 	display: flex;
 	align-items: center;
 	justify-content: center;
