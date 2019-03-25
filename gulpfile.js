@@ -14,7 +14,7 @@ var paths = {
 function browserSync(done) {
     browsersync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./src/"
         },
         port
     });
